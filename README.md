@@ -35,6 +35,19 @@ Run!
 $ sudo node conversation.js
 ```
 
+An attention word is used so TJBot knows you are talking to him. The default attention word is 'Watson', but you can change it in conversation.js as follows. Update conversation.js and change tjConfig to add the 'robot' section:
+```javascript
+// turn on debug logging to the console
+var tjConfig = {
+    verboseLogging: true,
+    robot: {
+        name: 'Watson',
+        gender: 'male'
+    }
+};
+```
+You can change the 'name' to whatever you would like to call your TJBot. In addition, if you change the gender to 'female', TJBot will use a female voice to speak to you!
+
 ## 3. Invoking some actions with IoT Platform
 This step shows how to bind together IoT and cloud for data collection and AI based analysis
 
