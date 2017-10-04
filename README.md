@@ -16,11 +16,29 @@ This step shows adding the java based conversation UI on an Android (or iOS) dev
 - check if your application binds with the conversation service - ask: "who are you?", or request: "tell me a joke".
 
 ## 2. IoT with the Voice UI
-This step shows deploying Speech to Text, Conversation, and Text to Speech Services on Rapsberry Pi
+This step shows deploying Speech to Text, Conversation, and Text to Speech Services on Rapsberry Pi.
+
+- Start by forking the repo of TJBot: https://github.com/ibmtjbot/tjbot/tree/master/recipes/conversation;
+- Create and add Speech to Text and Text to Speech Watson services (available on IBM Cloud - Bluemix for all except Lite accounts);
+- when all the credentials are entered into the credentials.js,
+```
+$ cd ../recipes/conversation
+$ npm install
+
+$ cp config.default.js config.js
+$ nano config.js
+<enter your credentials and the conversation workspace ID in the specified places>
+```
+
+Run!
+```
+$ sudo node conversation.js
+```
 
 ## 3. Invoking some actions with IoT Platform
 This step shows how to bind together IoT and cloud for data collection and AI based analysis
 
+Follow the github description on deploying the app: https://github.com/blumareks/iot-watson-swift/tree/master/lab2
 
 references:
 - http://www.instructables.com/id/Build-a-Talking-Robot-With-Watson-and-Raspberry-Pi/
