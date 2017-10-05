@@ -12,7 +12,7 @@ This step shows adding the java based conversation UI on an Android (or iOS) dev
 - It will open mobile projects - choose "conversation". 
 - Download the mobile project for Android (or iOS), 
 - and using Android Studio (or Xcode for iOS) finish the deployment. 
-- In the step of creating the DIALOG please use the attached ```watson_bot_dialog.json```, and upload it to the conversation service.
+- In the step of creating the DIALOG please use the attached ```watson-bot-conversation.json```, and upload it to the conversation service.
 - check if your application binds with the conversation service - ask: "who are you?", or request: "tell me a joke".
 
 ## 2. IoT with the Voice UI
