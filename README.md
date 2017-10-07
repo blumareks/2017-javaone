@@ -1,4 +1,4 @@
-# 2017-javaone
+# 2017 Conversation Robot - Roomba meets Watson - Hear the voice of AI 
 Transforming the lightweight IoT with Voice UI, Java, AI, and Cloud
 
 [This repository is an extension for the Massive Online Open Course - Robots are coming! Build IoT apps with IBM Watson, Swift, and Node-RED](https://github.com/blumareks/2017-javaone/blob/master/README.md)
